@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "tickallocfix",
+  "name": "Tick Alloc Fix",
+  "authors": [ "Nick" ],
+  "description": "Removes per-tick garbage: allocation-free leaf decay check (server) and a reused params array for entity animation checks (client). Behavior identical to vanilla.",
+  "version": "1.0.0",
+  "side": "Universal",
+  "requiredOnClient": false,
+  "requiredOnServer": false,
+  "dependencies": { "game": "1.22.0" }
+}

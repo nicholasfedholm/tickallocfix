@@ -1,0 +1,8 @@
+bin/
+obj/
+out/
+*.zip
+*.dll
+*.pdb
+*.exe
+Directory.Build.props
